@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Patas Crescentes</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="top">
+         <h1>Patas Crescentes</h1>
+        </div>
+        <div class="text">
+         <h1 id="texts">Bem vindo ao site!</h1>
+         <p>A função do site é bem simples ele apenas serve para você ver 
+            imagens de raças de cães, qualquer uma que você queira (provavelmente).
+         </p>
+         <p>
+            Agora o principal como funciona o site, sinceramente é bem simples você clica
+            no paralelepipedo ai em baixo que diz "Selecione uma raça" e depois você escolhe uma raça
+            após isso é so clicar no botão ao lado que diz "Clique aqui" e Boom!!(Sound effects)
+            a imagem aparece.
+         </p>
+         <p>
+            Bem simples não?
+         </p>
+        </div>
+        <h1>Selecionar raça</h1>
+        <div class="controls">
+            <select id="breed-select" class="breed-selector">
+                <option value="">--Selecione uma raça--</option>
+            </select>
+            <button id="fetch-btn" class="fetch-button">Clique aqui</button>
+        </div>
+        
+        <div id="carregando" class="carregando">Selecione uma raça e clique em "Clique aqui"</div>
+        <!-- <div class="name" id="name"></div> -->
+        <div id="images-container" class="images"></div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
